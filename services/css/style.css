@@ -1,0 +1,122 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEEEE;
+	display: block;
+	background: 
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #E6E6E6;
+	display: block;
+}
+
+.wrapper {
+	height: auto;
+	background-color: #FFFFFF;
+	grid-template-columns: repeat(1fr 12);
+	grid-template-areas: 
+	 	"nav nav nav nav nav nav nav nav nav nav nav nav"
+	 	"animation animation animation animation animation animation animation animation animation animation"
+	 	"container container container container container container container container container container container container"
+	 	
+}
+
+.nav {
+	grid-area: nav;
+	background-color: #FF7F2A;
+	overflow: hidden;
+}	
+	
+	.nav img {
+		float: left;
+		margin-left: 75px;
+		margin-top: 20px;
+
+	}
+	.nav ul {
+		float: right;
+		margin-right: 150px;
+		margin-top: 20px;
+	}
+	.nav ul li {
+		float: left;
+		list-style-type: none;
+		margin-right: 55px;
+		padding-right: 30px;
+	}
+	.nav ul li a {
+		text-decoration: none;
+		font-size: 20px;
+		color: #191919;
+	}
+
+
+.animation {
+	grid-area: animation;
+	height: 400px;
+	background-color: #DDDDDD;
+	margin-bottom: 30px;
+}
+
+
+.container {
+	grid-area: container;
+	display: grid;
+	grid-template-columns: repeat(6fr 6fr);
+	grid-template-areas: 
+	"container ."
+	"tom ."
+	"mytable operate"
+}
+	#container {
+		grid-area: container;
+		margin-left: 75px;
+	}
+	#tom {
+		grid-area: tom;
+		margin-top: 15px;
+	}
+	#tom ul {
+		margin-top: -1px;
+		overflow: hidden;
+		float: left;
+		margin-left: 75px;
+	}
+	#tom ul li {
+		float: left;
+		list-style-type: none;
+		margin-right: 20px;
+	}
+	#tom ul li a {
+		font-size: 20px;
+		text-decoration: none;
+		text-align: center;
+		padding: 20px;
+		border: 1px solid #F8F8F8;
+		background-color: #FFB380;
+		color: #1A1A1A;
+	}
+
+
+.accordion {
+	background-color: blue;
+	color: black;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0 .4s;
+	margin: 10px;
+}
+
+.panel {
+	padding: 15px;
+	background-color: white;
+	display: block;
+	overflow: hidden;
+}

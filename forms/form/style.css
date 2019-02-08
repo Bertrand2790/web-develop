@@ -1,0 +1,22 @@
+* {
+	background: url(img/photo50.jpg);
+	background-color: black;
+}
+.main-home {
+	margin: 50% auto;
+}
+div	h1, h3, form {
+	color: violet;
+}
+input {
+	margin-bottom: 25px;
+}
+
+.container {
+	/*text-align: center;*/
+	
+}
+
+.card {
+	text-align: center;
+}

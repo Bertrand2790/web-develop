@@ -1,0 +1,12 @@
+* {
+	background-color: transparent;
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #7F7F7F;
+}
+
+.card {
+	display: block;
+	margin: 25% 50%;
+}
